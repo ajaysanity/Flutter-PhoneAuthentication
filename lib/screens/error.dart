@@ -6,7 +6,7 @@ class ErrorScreen extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
-          child: Text('Error Code validation!'),
+          child: Text('Sorry Your Mobile Phone is not registered!'),
         ),
       ),
     );

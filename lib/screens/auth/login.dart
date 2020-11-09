@@ -54,7 +54,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: RaisedButton(
                   onPressed: () {
                     _repository.dialog.showLoaderDialog(context, 'Loading Please Wait');
-                    _repository.firebase.registerPhone(phoneController.text, context);
+                    _repository.firebase.signInPhone(phoneController.text, context);
                   },
                   child: Text('Login',
                     style: TextStyle(

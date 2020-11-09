@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
               ),
               ),
               Text(phoneNumber ?? ''),
-              RaisedButton(onPressed: () => _repository.firebase.signOut(),
+              RaisedButton(onPressed: () => _repository.firebase.signOut(context),
               child: Text('Sign Out'),
               )
             ],
